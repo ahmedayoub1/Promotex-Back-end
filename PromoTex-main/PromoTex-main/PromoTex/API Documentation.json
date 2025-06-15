@@ -1,0 +1,646 @@
+[
+    {
+        "description": "Register a new user (Customer role by default)",
+        "name": "Register",
+        "controller": "AccountController",
+        "method": "POST",
+        "route": "/api/Account/Register",
+        "auth": "Public",
+        "requestBody": {
+            "email": "string",
+            "password": "string",
+            "fullName": "string",
+            "fullAddress": "string",
+            "phoneNumber": "string"
+        },
+        "responses": {
+            "200": "User created and confirmation email sent",
+            "400": "Validation errors or account creation failure"
+        }
+    },
+    {
+        "description": "Authenticate a user and sign them in",
+        "name": "Login",
+        "controller": "AccountController",
+        "method": "POST",
+        "route": "/api/Account/Login",
+        "auth": "Public",
+        "requestBody": {
+            "email": "string",
+            "password": "string",
+            "remeberMe": "boolean"
+        },
+        "responses": {
+            "200": "Login successfully",
+            "400": "Invalid credentials, unconfirmed email, or locked account",
+            "404": "User not found"
+        }
+    },
+    {
+        "description": "Logout the currently signed-in user",
+        "name": "Logout",
+        "controller": "AccountController",
+        "method": "POST",
+        "route": "/api/Account/Logout",
+        "auth": "Authenticated User",
+        "requestBody": {},
+        "responses": {
+            "200": "User is signed out"
+        }
+    },
+    {
+        "description": "Get a list of all users along with their assigned roles",
+        "name": "GetAllUsersWithRoles",
+        "controller": "UserController",
+        "method": "GET",
+        "route": "/api/User/all-users-with-roles",
+        "auth": "Admin",
+        "requestBody": {},
+        "responses": {
+            "200": "List of users with roles"
+        }
+    },
+    {
+        "description": "Confirm a user's email address using token",
+        "name": "ConfirmEmail",
+        "controller": "UserController",
+        "method": "GET",
+        "route": "/api/User/confirm-email",
+        "auth": "Public",
+        "requestBody": {
+            "userId": "string",
+            "token": "string"
+        },
+        "responses": {
+            "200": "Email confirmed successfully",
+            "400": "Invalid user or token"
+        }
+    },
+    {
+        "description": "Resend email confirmation to a user's email",
+        "name": "ResendEmailConfirmation",
+        "controller": "UserController",
+        "method": "POST",
+        "route": "/api/User/resendemailconfirmation",
+        "auth": "Public",
+        "requestBody": {
+            "email": "string"
+        },
+        "responses": {
+            "200": "Confirmation email sent if applicable"
+        }
+    },
+    {
+        "description": "Send OTP to user's email for password reset",
+        "name": "ForgotPassword",
+        "controller": "UserController",
+        "method": "POST",
+        "route": "/api/User/forgot-password",
+        "auth": "Public",
+        "requestBody": {
+            "email": "string"
+        },
+        "responses": {
+            "200": "OTP sent",
+            "400": "User not found",
+            "500": "Template file missing"
+        }
+    },
+    {
+        "description": "Verify OTP before allowing password reset",
+        "name": "VerifyOtp",
+        "controller": "UserController",
+        "method": "POST",
+        "route": "/api/User/verify-otp",
+        "auth": "Public",
+        "requestBody": {
+            "otp": "string"
+        },
+        "responses": {
+            "200": "OTP is valid",
+            "400": "Invalid or expired OTP"
+        }
+    },
+    {
+        "description": "Reset password after OTP verification",
+        "name": "ResetPassword",
+        "controller": "UserController",
+        "method": "POST",
+        "route": "/api/User/reset-password",
+        "auth": "Public",
+        "requestBody": {
+            "otp": "string",
+            "newPassword": "string"
+        },
+        "responses": {
+            "200": "Password reset successfully",
+            "400": "Invalid/expired OTP or update failed"
+        }
+    },
+    {
+        "description": "Get the authenticated user's profile details",
+        "name": "GetUserDetails",
+        "controller": "UserController",
+        "method": "GET",
+        "route": "/api/User/User-Profile",
+        "auth": "Authenticated User",
+        "requestBody": {},
+        "responses": {
+            "200": "User profile data",
+            "404": "User not found"
+        }
+    },
+    {
+        "description": "Toggle account lock status for a user",
+        "name": "ToggleUserLock",
+        "controller": "UserController",
+        "method": "POST",
+        "route": "/api/User/toggle-lock/{userId}",
+        "auth": "Admin",
+        "requestBody": {},
+        "responses": {
+            "200": "Lock/unlock message",
+            "400": "Error message"
+        }
+    },
+    {
+        "description": "Delete a user by ID",
+        "name": "DeleteUser",
+        "controller": "UserController",
+        "method": "DELETE",
+        "route": "/api/User/Delete-User/{userId}",
+        "auth": "Admin",
+        "requestBody": {},
+        "responses": {
+            "200": "User deleted",
+            "400": "Deletion failed",
+            "404": "User not found"
+        }
+    },
+    {
+        "description": "Update authenticated user's details",
+        "name": "UpdateUserDetails",
+        "controller": "UserController",
+        "method": "PUT",
+        "route": "/api/User/Update-user-details",
+        "auth": "Authenticated User",
+        "requestBody": {
+            "fullName": "string",
+            "fullAddress": "string",
+            "phoneNumber": "string"
+        },
+        "responses": {
+            "200": "User updated successfully",
+            "400": "Validation or update error",
+            "404": "User not found"
+        }
+    },
+    {
+        "description": "Authenticated user requests a role change",
+        "name": "RequestRoleChange",
+        "controller": "UserController",
+        "method": "POST",
+        "route": "/api/User/request-role-change",
+        "auth": "Authenticated User",
+        "requestBody": {
+            "requestedRole": "string"
+        },
+        "responses": {
+            "200": "Request submitted",
+            "400": "Duplicate request or error"
+        }
+    },
+    {
+        "description": "Get all pending role change requests",
+        "name": "GetPendingRequests",
+        "controller": "UserController",
+        "method": "GET",
+        "route": "/api/User/pending-role-requests",
+        "auth": "Admin",
+        "requestBody": {},
+        "responses": {
+            "200": "List of pending role change requests"
+        }
+    },
+    {
+        "description": "Approve or reject a user's role change request",
+        "name": "HandleRequest",
+        "controller": "UserController",
+        "method": "POST",
+        "route": "/api/User/handle-role-request",
+        "auth": "Admin",
+        "requestBody": {
+            "requestId": "integer",
+            "approve": "boolean"
+        },
+        "responses": {
+            "200": "Request handled successfully",
+            "400": "Failed to update role or remove existing roles",
+            "404": "Request not found or already handled"
+        }
+    },
+    {
+        "description": "Create a new store by a seller",
+        "name": "CreateStore",
+        "controller": "StoreController",
+        "method": "POST",
+        "route": "/api/Store",
+        "auth": "Seller",
+        "requestBody": {
+            "Name": "string",
+            "Description": "string",
+            "PhoneNumber": "string",
+            "Address": "string",
+            "LogoUrl": "file (IFormFile)"
+        },
+        "responses": {
+            "200": "Store created successfully",
+            "404": "User not found",
+            "409": "Store with this name already exists"
+        }
+    },
+    {
+        "description": "Update an existing store owned by the current seller",
+        "name": "UpdateStore",
+        "controller": "StoreController",
+        "method": "PUT",
+        "route": "/api/Store/stores/{storeName}",
+        "auth": "Seller",
+        "requestBody": {
+            "Name": "string",
+            "Description": "string",
+            "PhoneNumber": "string",
+            "Address": "string",
+            "LogoUrl": "file (IFormFile)"
+        },
+        "responses": {
+            "200": "Store updated successfully",
+            "404": "Store not found or unauthorized"
+        }
+    },
+    {
+        "description": "Delete a store owned by the current seller",
+        "name": "DeleteStore",
+        "controller": "StoreController",
+        "method": "DELETE",
+        "route": "/api/Store/stores/{storeName}",
+        "auth": "Seller",
+        "requestBody": null,
+        "responses": {
+            "200": "Store deleted successfully",
+            "404": "Store not found or unauthorized"
+        }
+    },
+    {
+        "description": "Get all available stores with their categories and products",
+        "name": "GetAllStores",
+        "controller": "StoreController",
+        "method": "GET",
+        "route": "/api/Store",
+        "auth": "None",
+        "requestBody": null,
+        "responses": {
+            "200": "List of all stores returned successfully"
+        }
+    },
+    {
+        "description": "Get all stores owned by the currently authenticated seller",
+        "name": "GetMyStores",
+        "controller": "StoreController",
+        "method": "GET",
+        "route": "/api/Store/my-stores",
+        "auth": "Seller",
+        "requestBody": null,
+        "responses": {
+            "200": "List of user's stores returned successfully"
+        }
+    },
+    {
+        "description": "Get a store's full details by its name",
+        "name": "GetStoreByName",
+        "controller": "StoreController",
+        "method": "GET",
+        "route": "/api/Store/{storeName}",
+        "auth": "None",
+        "requestBody": null,
+        "responses": {
+            "200": "Store details returned successfully",
+            "404": "Store not found"
+        }
+    },
+    {
+        "description": "Search stores by name (partial or full match)",
+        "name": "SearchStores",
+        "controller": "StoreController",
+        "method": "GET",
+        "route": "/api/Store/search?name={storeName}",
+        "auth": "None",
+        "requestBody": null,
+        "responses": {
+            "200": "Matching stores returned successfully",
+            "400": "Search keyword is required"
+        }
+    },
+    {
+        "description": "Create a new category in a specific store by a seller",
+        "name": "CreateCategory",
+        "controller": "CategoryController",
+        "method": "POST",
+        "route": "/api/Category/stores/{storeName}/categories",
+        "auth": "Seller",
+        "requestBody": {
+            "Name": "string"
+        },
+        "responses": {
+            "200": "Category created successfully",
+            "404": "Store not found or unauthorized",
+            "409": "Category with this name already exists in this store"
+        }
+    },
+    {
+        "description": "Update the name of an existing category within a specific store",
+        "name": "UpdateCategory",
+        "controller": "CategoryController",
+        "method": "PUT",
+        "route": "/api/Category/stores/{storeName}/categories/{categoryName}",
+        "auth": "Seller",
+        "requestBody": {
+            "Name": "string"
+        },
+        "responses": {
+            "200": "Category updated successfully",
+            "404": "Category not found or unauthorized"
+        }
+    },
+    {
+        "description": "Delete a category from a store by specifying store and category name",
+        "name": "DeleteCategoryByStoreAndCategoryName",
+        "controller": "CategoryController",
+        "method": "DELETE",
+        "route": "/api/Category/categories/by-name?storeName={storeName}&categoryName={categoryName}",
+        "auth": "Seller",
+        "requestBody": null,
+        "responses": {
+            "200": "Category deleted successfully",
+            "400": "Store name and category name are required",
+            "404": "Category not found or unauthorized"
+        }
+    },
+    {
+        "description": "Get all categories for a specific store owned by the current seller",
+        "name": "GetStoreCategoriesByName",
+        "controller": "CategoryController",
+        "method": "GET",
+        "route": "/api/Category/by-name/{storeName}/categories",
+        "auth": "Seller",
+        "requestBody": null,
+        "responses": {
+            "200": "List of categories returned successfully",
+            "404": "Store not found or unauthorized"
+        }
+    },
+    {
+        "description": "Add a new product to a store owned by the authenticated seller",
+        "name": "AddProduct",
+        "controller": "ProductController",
+        "method": "POST",
+        "route": "/api/Product/products",
+        "auth": "Seller",
+        "requestBody": {
+            "Name": "string",
+            "Description": "string",
+            "Price": "decimal",
+            "ImageUrl": "file (IFormFile)",
+            "Brand": "string",
+            "Quantity": "int",
+            "StoreName": "string",
+            "CategoryName": "string",
+            "Colors": "string[] (optional)",
+            "Sizes": "string[] (optional)"
+        },
+        "responses": {
+            "200": "Product created successfully, returns created product details",
+            "404": "Store not found or unauthorized, or category not found in the store"
+        }
+    },
+    {
+        "description": "Update an existing product owned by the authenticated seller",
+        "name": "UpdateProduct",
+        "controller": "ProductController",
+        "method": "PUT",
+        "route": "/api/Product/products/{productId}",
+        "auth": "Seller",
+        "requestBody": {
+            "Name": "string",
+            "Description": "string",
+            "Price": "decimal",
+            "ImageUrl": "file (IFormFile, optional)",
+            "Brand": "string",
+            "Quantity": "int",
+            "CategoryName": "string",
+            "Colors": "string[] (optional)",
+            "Sizes": "string[] (optional)"
+        },
+        "responses": {
+            "200": "Product updated successfully, returns updated product details",
+            "404": "Product not found or unauthorized, or category not found in the store"
+        }
+    },
+    {
+        "description": "Get details of a single product by ID",
+        "name": "GetProduct",
+        "controller": "ProductController",
+        "method": "GET",
+        "route": "/api/Product/products/{productId}",
+        "auth": "Anonymous",
+        "requestBody": null,
+        "responses": {
+            "200": "Returns product details",
+            "404": "Product not found"
+        }
+    },
+    {
+        "description": "Get all products with details",
+        "name": "GetAllProducts",
+        "controller": "ProductController",
+        "method": "GET",
+        "route": "/api/Product/products",
+        "auth": "Anonymous",
+        "requestBody": null,
+        "responses": {
+            "200": "Returns list of all products",
+            "404": "No products found"
+        }
+    },
+    {
+        "description": "Delete a product owned by the authenticated seller",
+        "name": "DeleteProduct",
+        "controller": "ProductController",
+        "method": "DELETE",
+        "route": "/api/Product/products/{productId}",
+        "auth": "Seller",
+        "requestBody": null,
+        "responses": {
+            "200": "Product deleted successfully",
+            "404": "Product not found or unauthorized"
+        }
+    },
+    {
+        "description": "Get products filtered by category name",
+        "name": "GetProductsByCategoryName",
+        "controller": "ProductController",
+        "method": "GET",
+        "route": "/api/Product/products/by-category/{categoryName}",
+        "auth": "Anonymous",
+        "requestBody": null,
+        "responses": {
+            "200": "Returns list of products under the specified category",
+            "404": "No products found under the given category"
+        }
+    },
+    {
+        "description": "Search products by name (case-insensitive substring search)",
+        "name": "SearchProductsByName",
+        "controller": "ProductController",
+        "method": "GET",
+        "route": "/api/Product/products/search",
+        "auth": "Anonymous",
+        "requestBody": {
+            "name": "string (query parameter)"
+        },
+        "responses": {
+            "200": "Returns list of matching products",
+            "400": "Search term cannot be empty",
+            "404": "No products found matching the search term"
+        }
+    },
+    {
+        "description": "Add a product to the authenticated user's cart. If the product is already in the cart, increase its quantity.",
+        "name": "AddProductToCart",
+        "controller": "CartController",
+        "method": "POST",
+        "route": "/api/Cart/add",
+        "auth": "Authenticated User",
+        "requestBody": {
+            "ProductId": "integer",
+            "Quantity": "integer"
+        },
+        "responses": {
+            "200": "Product added to cart successfully",
+            "400": "Quantity must be greater than zero",
+            "404": "Product not found"
+        }
+    },
+    {
+        "description": "Get the current authenticated user's cart items with product details.",
+        "name": "GetCart",
+        "controller": "CartController",
+        "method": "GET",
+        "route": "/api/Cart/View",
+        "auth": "Authenticated User",
+        "requestBody": null,
+        "responses": {
+            "200": "Returns list of cart items; empty list if cart is empty"
+        }
+    },
+    {
+        "description": "Remove a product from the authenticated user's cart by product ID.",
+        "name": "RemoveProductFromCart",
+        "controller": "CartController",
+        "method": "DELETE",
+        "route": "/api/Cart/remove/{productId}",
+        "auth": "Authenticated User",
+        "requestBody": null,
+        "responses": {
+            "200": "Product removed from cart successfully",
+            "404": "Cart is empty or product not found in cart"
+        }
+    },
+    {
+        "description": "Place one or more orders for the authenticated user, grouping products by their store. Calculates total price per store and saves orders with status Pending.",
+        "name": "PlaceOrder",
+        "controller": "OrderController",
+        "method": "POST",
+        "route": "/api/Order",
+        "auth": "Authenticated User",
+        "requestBody": {
+            "ShippingAddress": "string",
+            "Products": [
+                {
+                    "ProductId": "integer",
+                    "Quantity": "integer"
+                }
+            ]
+        },
+        "responses": {
+            "200": {
+                "Message": "Order(s) placed successfully",
+                "Orders": [
+                    {
+                        "Id": "integer",
+                        "StoreId": "integer",
+                        "TotalPrice": "decimal",
+                        "OrderDate": "datetime"
+                    }
+                ]
+            },
+            "400": [
+                "Order must contain at least one product",
+                "Some products were not found"
+            ]
+        }
+    },
+    {
+        "description": "Retrieve the authenticated user's order history including order details, store info, and ordered items with product details.",
+        "name": "GetMyOrders",
+        "controller": "OrderController",
+        "method": "GET",
+        "route": "/api/Order/my-orders",
+        "auth": "Authenticated User",
+        "requestBody": null,
+        "responses": {
+            "200": [
+                {
+                    "Id": "integer",
+                    "OrderDate": "datetime",
+                    "TotalPrice": "decimal",
+                    "Status": "string (OrderStatus enum)",
+                    "Store": {
+                        "Name": "string",
+                        "LogoUrl": "string"
+                    },
+                    "Items": [
+                        {
+                            "ProductId": "integer",
+                            "Name": "string",
+                            "Quantity": "integer",
+                            "UnitPrice": "decimal",
+                            "ImageUrl": "string",
+                            "Total": "decimal"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "Submit a new contact request.",
+        "name": "SubmitContact",
+        "controller": "ContactController",
+        "method": "POST",
+        "route": "/api/Contact",
+        "auth": "None",
+        "requestBody": {
+            "Name": "string",
+            "Email": "string",
+            "Subject": "string",
+            "Message": "string",
+            "Phone": "string (optional)"
+        },
+        "responses": {
+            "200": {
+                "message": "Contact request submitted successfully."
+            }
+        }
+    }
+]

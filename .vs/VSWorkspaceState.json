@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\PromoTex",
+    "\\PromoTex\\Controllers",
+    "\\PromoTex\\Data Access",
+    "\\PromoTex\\Migrations",
+    "\\PromoTex\\ModelViews",
+    "\\PromoTex\\Properties",
+    "\\PromoTex\\Templates"
+  ],
+  "SelectedNode": "\\PromoTex\\Program.cs",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,557 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|c:\\users\\ahmedayoub\\onedrive\\desktop\\gp\\promotex\\promotex\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|solutionrelative:promotex\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|c:\\users\\ahmedayoub\\onedrive\\desktop\\gp\\promotex\\promotex\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|solutionrelative:promotex\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|c:\\users\\ahmedayoub\\onedrive\\desktop\\gp\\promotex\\promotex\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|solutionrelative:promotex\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|c:\\users\\ahmedayoub\\onedrive\\desktop\\gp\\promotex\\promotex\\migrations\\20250222133525_removeseeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|solutionrelative:promotex\\migrations\\20250222133525_removeseeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|c:\\users\\ahmedayoub\\onedrive\\desktop\\gp\\promotex\\promotex\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|solutionrelative:promotex\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|c:\\users\\ahmedayoub\\onedrive\\desktop\\gp\\promotex\\promotex\\migrations\\20250221180528_addidentitytables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|solutionrelative:promotex\\migrations\\20250221180528_addidentitytables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|c:\\users\\ahmedayoub\\onedrive\\desktop\\gp\\promotex\\promotex\\migrations\\20250221180540_seedingroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|solutionrelative:promotex\\migrations\\20250221180540_seedingroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|c:\\users\\ahmedayoub\\onedrive\\desktop\\gp\\promotex\\promotex\\migrations\\20250221180619_addadminuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|solutionrelative:promotex\\migrations\\20250221180619_addadminuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|c:\\users\\ahmedayoub\\onedrive\\desktop\\gp\\promotex\\promotex\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|solutionrelative:promotex\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|c:\\users\\ahmedayoub\\onedrive\\desktop\\gp\\promotex\\promotex\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|solutionrelative:promotex\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|c:\\users\\ahmedayoub\\onedrive\\desktop\\gp\\promotex\\promotex\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|solutionrelative:promotex\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|c:\\users\\ahmedayoub\\onedrive\\desktop\\gp\\promotex\\promotex\\models\\contactrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|solutionrelative:promotex\\models\\contactrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|c:\\users\\ahmedayoub\\onedrive\\desktop\\gp\\promotex\\promotex\\dto\\forgetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|solutionrelative:promotex\\dto\\forgetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|c:\\users\\ahmedayoub\\onedrive\\desktop\\gp\\promotex\\promotex\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|solutionrelative:promotex\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|c:\\users\\ahmedayoub\\onedrive\\desktop\\gp\\promotex\\promotex\\dto\\otpverficationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|solutionrelative:promotex\\dto\\otpverficationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|c:\\users\\ahmedayoub\\onedrive\\desktop\\gp\\promotex\\promotex\\dto\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|solutionrelative:promotex\\dto\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|c:\\users\\ahmedayoub\\onedrive\\desktop\\gp\\promotex\\promotex\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|solutionrelative:promotex\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|c:\\users\\ahmedayoub\\onedrive\\desktop\\gp\\promotex\\promotex\\templates\\passwordreset.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|solutionrelative:promotex\\templates\\passwordreset.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|c:\\users\\ahmedayoub\\onedrive\\desktop\\gp\\promotex\\promotex\\modelviews\\applicationuservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|solutionrelative:promotex\\modelviews\\applicationuservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|c:\\users\\ahmedayoub\\onedrive\\desktop\\gp\\promotex\\promotex\\models\\passwordresetotp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|solutionrelative:promotex\\models\\passwordresetotp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|c:\\users\\ahmedayoub\\onedrive\\desktop\\gp\\promotex\\promotex\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|solutionrelative:promotex\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|c:\\users\\ahmedayoub\\onedrive\\desktop\\gp\\promotex\\promotex\\templates\\emailconfirmation.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|solutionrelative:promotex\\templates\\emailconfirmation.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|c:\\users\\ahmedayoub\\onedrive\\desktop\\gp\\promotex\\promotex\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|solutionrelative:promotex\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|c:\\users\\ahmedayoub\\onedrive\\desktop\\gp\\promotex\\promotex\\data access\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|solutionrelative:promotex\\data access\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|c:\\users\\ahmedayoub\\onedrive\\desktop\\gp\\promotex\\promotex\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|solutionrelative:promotex\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|c:\\users\\ahmedayoub\\onedrive\\desktop\\gp\\promotex\\promotex\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|solutionrelative:promotex\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|c:\\users\\ahmedayoub\\onedrive\\desktop\\gp\\promotex\\promotex\\migrations\\20250501111903_test22.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|solutionrelative:promotex\\migrations\\20250501111903_test22.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|c:\\users\\ahmedayoub\\onedrive\\desktop\\gp\\promotex\\promotex\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|solutionrelative:promotex\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|c:\\users\\ahmedayoub\\onedrive\\desktop\\gp\\promotex\\promotex\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|solutionrelative:promotex\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|c:\\users\\ahmedayoub\\onedrive\\desktop\\gp\\promotex\\promotex\\dto\\resendemailconfirmationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|solutionrelative:promotex\\dto\\resendemailconfirmationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|c:\\users\\ahmedayoub\\onedrive\\desktop\\gp\\promotex\\promotex\\services\\templaterenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|solutionrelative:promotex\\services\\templaterenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|c:\\users\\ahmedayoub\\onedrive\\desktop\\gp\\promotex\\promotex\\services\\itemplaterenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|solutionrelative:promotex\\services\\itemplaterenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|c:\\users\\ahmedayoub\\onedrive\\desktop\\gp\\promotex\\promotex\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C4F3A5-4220-42D3-B6F9-3D4907F74E89}|PromoTex\\PromoTex.csproj|solutionrelative:promotex\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20250221180528_addIdentityTables.cs",
+              "DocumentMoniker": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\Migrations\\20250221180528_addIdentityTables.cs",
+              "RelativeDocumentMoniker": "PromoTex\\Migrations\\20250221180528_addIdentityTables.cs",
+              "ToolTip": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\Migrations\\20250221180528_addIdentityTables.cs",
+              "RelativeToolTip": "PromoTex\\Migrations\\20250221180528_addIdentityTables.cs",
+              "ViewState": "AgIAAM8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T00:30:10.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20250221180540_seedingRoles.cs",
+              "DocumentMoniker": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\Migrations\\20250221180540_seedingRoles.cs",
+              "RelativeDocumentMoniker": "PromoTex\\Migrations\\20250221180540_seedingRoles.cs",
+              "ToolTip": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\Migrations\\20250221180540_seedingRoles.cs",
+              "RelativeToolTip": "PromoTex\\Migrations\\20250221180540_seedingRoles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T00:29:52.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20250221180619_addAdminUser.cs",
+              "DocumentMoniker": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\Migrations\\20250221180619_addAdminUser.cs",
+              "RelativeDocumentMoniker": "PromoTex\\Migrations\\20250221180619_addAdminUser.cs",
+              "ToolTip": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\Migrations\\20250221180619_addAdminUser.cs",
+              "RelativeToolTip": "PromoTex\\Migrations\\20250221180619_addAdminUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T00:29:31.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "PromoTex\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\Models\\Category.cs",
+              "RelativeToolTip": "PromoTex\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T00:28:04.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "PromoTex\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "PromoTex\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T00:27:58.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\Program.cs",
+              "RelativeDocumentMoniker": "PromoTex\\Program.cs",
+              "ToolTip": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\Program.cs",
+              "RelativeToolTip": "PromoTex\\Program.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwCEAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T14:15:26.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "PromoTex\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\Properties\\launchSettings.json",
+              "RelativeToolTip": "PromoTex\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-03T00:25:29.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "PromoTex\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "PromoTex\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAI8BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T00:30:22.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\appsettings.json",
+              "RelativeDocumentMoniker": "PromoTex\\appsettings.json",
+              "ToolTip": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\appsettings.json",
+              "RelativeToolTip": "PromoTex\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-01T11:02:19.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20250222133525_removeSeedData.cs",
+              "DocumentMoniker": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\Migrations\\20250222133525_removeSeedData.cs",
+              "RelativeDocumentMoniker": "PromoTex\\Migrations\\20250222133525_removeSeedData.cs",
+              "ToolTip": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\Migrations\\20250222133525_removeSeedData.cs",
+              "RelativeToolTip": "PromoTex\\Migrations\\20250222133525_removeSeedData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T00:30:54.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "PromoTex\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\Models\\Product.cs",
+              "RelativeToolTip": "PromoTex\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T00:25:18.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ContactRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\Models\\ContactRequest.cs",
+              "RelativeDocumentMoniker": "PromoTex\\Models\\ContactRequest.cs",
+              "ToolTip": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\Models\\ContactRequest.cs",
+              "RelativeToolTip": "PromoTex\\Models\\ContactRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T00:25:13.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ForgetPasswordDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\DTO\\ForgetPasswordDTO.cs",
+              "RelativeDocumentMoniker": "PromoTex\\DTO\\ForgetPasswordDTO.cs",
+              "ToolTip": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\DTO\\ForgetPasswordDTO.cs",
+              "RelativeToolTip": "PromoTex\\DTO\\ForgetPasswordDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T10:32:04.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\DTO\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "PromoTex\\DTO\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\DTO\\LoginDTO.cs",
+              "RelativeToolTip": "PromoTex\\DTO\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T11:23:58.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OTPVerficationDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\DTO\\OTPVerficationDTO.cs",
+              "RelativeDocumentMoniker": "PromoTex\\DTO\\OTPVerficationDTO.cs",
+              "ToolTip": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\DTO\\OTPVerficationDTO.cs",
+              "RelativeToolTip": "PromoTex\\DTO\\OTPVerficationDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T11:06:27.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ResetPasswordDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\DTO\\ResetPasswordDTO.cs",
+              "RelativeDocumentMoniker": "PromoTex\\DTO\\ResetPasswordDTO.cs",
+              "ToolTip": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\DTO\\ResetPasswordDTO.cs",
+              "RelativeToolTip": "PromoTex\\DTO\\ResetPasswordDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T10:31:54.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "PromoTex\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\appsettings.Development.json",
+              "RelativeToolTip": "PromoTex\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-03T00:27:27.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PasswordReset.html",
+              "DocumentMoniker": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\Templates\\PasswordReset.html",
+              "RelativeDocumentMoniker": "PromoTex\\Templates\\PasswordReset.html",
+              "ToolTip": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\Templates\\PasswordReset.html",
+              "RelativeToolTip": "PromoTex\\Templates\\PasswordReset.html",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAAEMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-01T11:04:55.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ApplicationUserVM.cs",
+              "DocumentMoniker": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\ModelViews\\ApplicationUserVM.cs",
+              "RelativeDocumentMoniker": "PromoTex\\ModelViews\\ApplicationUserVM.cs",
+              "ToolTip": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\ModelViews\\ApplicationUserVM.cs",
+              "RelativeToolTip": "PromoTex\\ModelViews\\ApplicationUserVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T00:25:23.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PasswordResetOTP.cs",
+              "DocumentMoniker": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\Models\\PasswordResetOTP.cs",
+              "RelativeDocumentMoniker": "PromoTex\\Models\\PasswordResetOTP.cs",
+              "ToolTip": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\Models\\PasswordResetOTP.cs",
+              "RelativeToolTip": "PromoTex\\Models\\PasswordResetOTP.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T11:02:55.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "PromoTex\\Controllers\\ContactController.cs",
+              "ToolTip": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "PromoTex\\Controllers\\ContactController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T19:45:33.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EmailConfirmation.html",
+              "DocumentMoniker": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\Templates\\EmailConfirmation.html",
+              "RelativeDocumentMoniker": "PromoTex\\Templates\\EmailConfirmation.html",
+              "ToolTip": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\Templates\\EmailConfirmation.html",
+              "RelativeToolTip": "PromoTex\\Templates\\EmailConfirmation.html",
+              "ViewState": "AgIAAPABAAAAAAAAAAAAAPABAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-25T13:06:56.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "PromoTex\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "PromoTex\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T19:43:36.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\Data Access\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "PromoTex\\Data Access\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\Data Access\\ApplicationDbContext.cs",
+              "RelativeToolTip": "PromoTex\\Data Access\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T11:03:16.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "PromoTex\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "PromoTex\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAH0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T10:35:23.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "PromoTex\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "PromoTex\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T10:48:36.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20250501111903_test22.cs",
+              "DocumentMoniker": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\Migrations\\20250501111903_test22.cs",
+              "RelativeDocumentMoniker": "PromoTex\\Migrations\\20250501111903_test22.cs",
+              "ToolTip": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\Migrations\\20250501111903_test22.cs",
+              "RelativeToolTip": "PromoTex\\Migrations\\20250501111903_test22.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T11:19:03.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "PromoTex\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\Controllers\\UserController.cs",
+              "RelativeToolTip": "PromoTex\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAAAGkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T10:30:49.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "PromoTex\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\Services\\EmailService.cs",
+              "RelativeToolTip": "PromoTex\\Services\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T13:52:16.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ResendEmailConfirmationDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\DTO\\ResendEmailConfirmationDTO.cs",
+              "RelativeDocumentMoniker": "PromoTex\\DTO\\ResendEmailConfirmationDTO.cs",
+              "ToolTip": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\DTO\\ResendEmailConfirmationDTO.cs",
+              "RelativeToolTip": "PromoTex\\DTO\\ResendEmailConfirmationDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T10:00:59.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "TemplateRenderer.cs",
+              "DocumentMoniker": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\Services\\TemplateRenderer.cs",
+              "RelativeDocumentMoniker": "PromoTex\\Services\\TemplateRenderer.cs",
+              "ToolTip": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\Services\\TemplateRenderer.cs",
+              "RelativeToolTip": "PromoTex\\Services\\TemplateRenderer.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwBQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T12:52:59.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ITemplateRenderer.cs",
+              "DocumentMoniker": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\Services\\ITemplateRenderer.cs",
+              "RelativeDocumentMoniker": "PromoTex\\Services\\ITemplateRenderer.cs",
+              "ToolTip": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\Services\\ITemplateRenderer.cs",
+              "RelativeToolTip": "PromoTex\\Services\\ITemplateRenderer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T12:52:56.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "RegisterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\DTO\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "PromoTex\\DTO\\RegisterDTO.cs",
+              "ToolTip": "C:\\Users\\ahmedayoub\\OneDrive\\Desktop\\GP\\PromoTex\\PromoTex\\DTO\\RegisterDTO.cs",
+              "RelativeToolTip": "PromoTex\\DTO\\RegisterDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T10:32:01.484Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "Version": 1,
+  "Hash": "R/8yX9I6xPfxSja0dYOX3q7u2FUIBz0KZ2ZuzXPgc/0=",
+  "Source": "PromoTex",
+  "BasePath": "_content/PromoTex",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "PromoTex\\wwwroot",
+      "Source": "PromoTex",
+      "ContentRoot": "E:\\PromoTex-main\\PromoTex-main\\PromoTex\\wwwroot\\",
+      "BasePath": "_content/PromoTex",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [],
+  "Endpoints": []
+}
